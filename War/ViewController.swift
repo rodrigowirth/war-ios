@@ -26,5 +26,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func dealTapped(_ sender: Any) {
+        print("deal tapper")
+    }
 }
 
