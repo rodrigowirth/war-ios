@@ -110,6 +110,12 @@
                             <constraint firstAttribute="bottom" secondItem="7f8-78-Tek" secondAttribute="bottom" id="lFl-8S-JtQ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="leftImageView" destination="1nK-cX-UNE" id="ybM-0d-e4C"/>
+                        <outlet property="leftScoreLabel" destination="PsY-lo-Ojs" id="Fhw-kF-vas"/>
+                        <outlet property="rightImageView" destination="KuV-sF-0jg" id="aFM-iQ-kjl"/>
+                        <outlet property="rigthScoreLabel" destination="xui-QK-uSo" id="grY-zn-E5s"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
