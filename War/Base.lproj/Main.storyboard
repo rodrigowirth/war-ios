@@ -44,7 +44,7 @@
                                                     <constraint firstAttribute="width" secondItem="1nK-cX-UNE" secondAttribute="height" multiplier="120:170" id="F1u-oa-BTR"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="KuV-sF-0jg" userLabel="RigthCard">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="KuV-sF-0jg" userLabel="rightCard">
                                                 <rect key="frame" x="160" y="0.0" width="120" height="170"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="KuV-sF-0jg" secondAttribute="height" multiplier="120:170" id="y62-4I-XhD"/>
@@ -117,7 +117,7 @@
                         <outlet property="leftImageView" destination="1nK-cX-UNE" id="ybM-0d-e4C"/>
                         <outlet property="leftScoreLabel" destination="PsY-lo-Ojs" id="Fhw-kF-vas"/>
                         <outlet property="rightImageView" destination="KuV-sF-0jg" id="aFM-iQ-kjl"/>
-                        <outlet property="rigthScoreLabel" destination="xui-QK-uSo" id="grY-zn-E5s"/>
+                        <outlet property="rightScoreLabel" destination="xui-QK-uSo" id="grY-zn-E5s"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
